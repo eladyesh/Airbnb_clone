@@ -52,7 +52,6 @@ class Client:
             self.__HOST = gethostbyname_ex(gethostname())[-1][0]
         else:
             self.__HOST = gethostbyname_ex(gethostname())[-1][-1]
-        self.__HOST = "172.16.2.74"
 
         self._ADDR = (self.__HOST, 50002)
 

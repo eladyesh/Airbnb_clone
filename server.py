@@ -47,7 +47,6 @@ class Server:
             self.__HOST = gethostbyname_ex(gethostname())[-1][0]
         else:
             self.__HOST = gethostbyname_ex(gethostname())[-1][-1]
-        self.__HOST = "172.16.2.74"
 
         # creating server socket, wrapping with ssl
         self.server = ssl.wrap_socket(sock=socket(AF_INET, SOCK_STREAM), server_side=True, certfile="certificate.pem",

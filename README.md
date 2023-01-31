@@ -7,3 +7,9 @@ Implementing the following
 - [x] A map object surrounding the world with a search option in order to book a room
 - [x] An admin that can control the system and cancel registrations
 - [x] SQL data base for saving data about users
+
+## Important Libraries
+- Tkinter, TTK
+- Tkinter Map View
+- Geo Coder
+- Custom Tkinter
